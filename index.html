@@ -93,6 +93,7 @@
 
     .nav-tab:nth-child(1) .dot { background: #e67e22; }
     .nav-tab:nth-child(2) .dot { background: #3d8c5c; }
+    .nav-tab:nth-child(3) .dot { background: #5b7fda; }
 
     .frame-container {
       flex: 1;
@@ -191,12 +192,17 @@
         <span class="dot"></span>
         金融市场日报
       </div>
+      <div class="nav-tab" data-target="frame-ama">
+        <span class="dot"></span>
+        AMA 总结
+      </div>
     </div>
   </div>
   <div class="frame-container">
     <div class="loading-indicator" id="loader">加载中...</div>
     <iframe id="frame-listings" class="active" src="https://jessiiiess.github.io/exchange-listings/"></iframe>
     <iframe id="frame-report" src="https://jessiiiess.github.io/finance-daily-report/"></iframe>
+    <iframe id="frame-ama" src="https://jessiiiess.github.io/ama-summary/"></iframe>
   </div>
 
   <script>
